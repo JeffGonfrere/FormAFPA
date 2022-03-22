@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquête AFPA</title>
+</head>
+<body>
+
+    <h2 align="center">Nous lançons une grande enquête sur les anciens stagiaires</h2>
+    <h5 align="center">merci de nous répondre</h5>
+
+    <form method="get">
+        <p><input type="text" name="nom"> Votre nom </p>
+        <p><input type="text" name="prenom"> Votre prénom </p>
+        <p><input type="text" name="DOB"> Votre date de naissance </p>
+        <p><input type="text" name="adresse"> Votre adresse</p>
+        <p><input type="text" name="ville"> Votre ville</p>
+        <p><input type="text" name="zipcode"> Votre code postal</p>
+        <P><input type="text" name="mail"> Votre E-mail</P>
+
+        <p><input type="radio" name="homme"> Vous êtes un homme <input type="radio" name="femme">Vous êtes une femme</p>
+
+        <p><select id="Metier">
+            <option value="dev">Développeur</option>
+            <option value="analyst">Analyste</option>
+            <option value="chefprojet">Chef de Projet</option>
+            <option value="autre">Autre</option>
+        </select>
+        <p><input type="text" name="siautre"> Si vous avez répondu "Autre", précisez</p>
+        <select name="salaire">
+            <option value="salaire1"> <1000 € </option>
+            <option value="salaire2"> >1000 € et < 1500 €</option>
+            <option value="salaire3"> >1500 € et < 2000 €</option>
+            <option value="salaire4"> >2000 € </option>
+        </select>
+        <br><br>
+           
+        <textarea name="commentaire" cols="20" rows="4">Vos commentaires</textarea><br />
+            <strong>Merci d'avoir répondu au questionnaire</strong><br />
+            <input type="submit" value="Validez"><input type="reset" value="Annulez">
+           
+    </form>
+
+
+
+</body>
+</html>
